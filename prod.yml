@@ -2,6 +2,7 @@ version: '2'
 services:
   dockerapp:
     image: cravoley/dockerapp:latest
+    pull: true
     ports:
       - "8082:5000"
 
